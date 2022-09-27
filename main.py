@@ -153,5 +153,5 @@ def step_6(types, release_year, genre):
 
 
 if __name__ == '__main__':
-    #app.run(host="localhost", port=8080, debug=True)
-    print(step_6('Movie', "2020", "Dramas"))
+    app.run(host="localhost", port=8080, debug=True)
+
